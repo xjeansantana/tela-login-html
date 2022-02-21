@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,15 +24,17 @@
         <h1>Login</h1>
 
         <div>
-          <input type="text" placeholder="email" class="login-campos" required />
+          <label for="email"></label>
+          <input type="text" id="email" nome="email" placeholder="email" required class="entrada-dados"/>
         </div>
 
         <div>
-          <input type="password" placeholder="senha" class="login-campos" required />
+          <label for="pwd"></label>
+          <input type="password" id="pwd" nome="pwd" placeholder="senha"required class="entrada-dados" />
         </div>
 
         <div>
-          <button type="submit" class="botao-enviar">Entrar</button>
+          <button type="submit" value="Submit" class="botao-enviar">Entrar</button>
         </div>
 
       </div>
