@@ -1,9 +1,9 @@
   body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, white, aquamarine);
+            font-family: 'Mukta', sans-serif;
+            background-color: #333645;
         }
         .tela-login{
-           background-color: rgba(0, 0, 0, 0.9); 
+           background-color: #282A37; 
            position: absolute;
            top: 50%;
            left: 50%;
@@ -21,14 +21,19 @@
             font-size: 15px;
         }
         .botao-enviar{
-            background-color: aquamarine;
+            background-color: #1C90F3;
             border: none;
             padding: 15px;
             width: 100%;
             border-radius: 10px;
             font-size: 15px;
+            color: white;
+            transition-delay: 0.5s;
         }
         .botao-enviar:hover{
-            background-color: aqua;
+            background-color:#0468c0;
             cursor: pointer;
+            transition-delay: 0.5s;
+           
+            
         }
