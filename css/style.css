@@ -3,7 +3,7 @@ body {
   background-color: #333645;
 }
 
-.tela-login {
+.caixa{
   background-color: #282a37;
   position: absolute;
   top: 50%;
@@ -11,29 +11,57 @@ body {
   transform: translate(-50%, -50%);
   padding: 80px;
   border-radius: 15px;
-  width: 50%;
 }
-.tela-login > h1 {
+
+.login-body h1 {
   color: white;
 }
 .login-campos {
-  padding: 15px;
+  padding: 20px;
+  width:  auto;
   border-radius: 10px;
   outline: none;
   font-size: 15px;
+  margin: 5px;
+
 }
+
 .botao-enviar {
   background-color: #1c90f3;
   border: none;
-  padding: 15px;
+  padding: 20px;
+  margin: 5px;
   width: 100%;
   border-radius: 10px;
   font-size: 15px;
   color: white;
-  transition-delay: 0.5s;
+  transition-delay: 0.25s;
 }
 .botao-enviar:hover {
   background-color: #0468c0;
   cursor: pointer;
-  transition-delay: 0.5s;
+  transition-delay: 0.25s;
+  letter-spacing: 1px;
 }
+
+.opcoes-conta {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.criar-conta, .esqueceu-senha{
+  text-align: center;
+}
+
+.criar-conta a, .esqueceu-senha a{
+  color: white;
+}
+
+.criar-conta a:hover, .esqueceu-senha a:hover{
+  color: #0468c0;
+  cursor: pointer;
+  transition-delay: 0.5s;
+ 
+}
+
+

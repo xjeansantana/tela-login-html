@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Tela de Login</title>
-  </head>
-  <body>
-    <div>
-      <div class="tela-login">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet" />
+ 
+  <title>Tela de Login</title>
+</head>
+
+<body>
+  <main class="caixa">
+
+    <form class="form">
+
+      <div class="login-body">
+
         <h1>Login</h1>
-        <input type="text" placeholder="email" class="login-campos" />
-        <br /><br />
-        <input type="password" placeholder="senha" class="login-campos" />
-        <br /><br />
-        <button type="submit" class="botao-enviar">Enviar</button>
+
+        <div>
+          <input type="text" placeholder="email" class="login-campos" required />
+        </div>
+
+        <div>
+          <input type="password" placeholder="senha" class="login-campos" required />
+        </div>
+
+        <div>
+          <button type="submit" class="botao-enviar">Entrar</button>
+        </div>
+
       </div>
+
+    </form>
+
+
+    <div class="opcoes-conta">
+
+      <div class="esqueceu-senha">
+        <a href="">Esqueci minha senha</a>
+      </div>
+
+      <div class="criar-conta">
+        <a href=""> Criar conta</a>
+      </div>
+
     </div>
-  </body>
+
+
+
+  </main>
+</body>
+
 </html>
